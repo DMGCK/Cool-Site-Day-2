@@ -1,0 +1,47 @@
+header .row {
+  background-color: navy;
+  padding-top: 1em;
+}
+
+header h1 {
+
+  color: white;
+  text-align: center;
+}
+
+html {
+  background-color: navy;
+}
+
+main h2 {
+  padding-bottom: .5em;
+}
+
+main .col-8 {
+  padding-left: 15em;
+  padding-right: 2em;
+}
+
+@media (max-width:1000px) {
+  main .col-8 {
+    padding-left:5em;
+  }
+  
+}
+
+main .col-4 {
+  margin-top: 8em;
+}
+
+p span {
+  font-weight: bold;
+}
+.cat {
+width: 20vw;
+}
+
+.solid {
+  background-color: aquamarine;
+  height: 1em;
+  margin-top: 2.5em;
+}
