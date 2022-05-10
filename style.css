@@ -38,6 +38,17 @@ p span {
 }
 .cat {
 width: 20vw;
+border-radius: 10px;
+box-shadow: 5px;
+}
+
+@media (max-width:650px) {
+  .cat {
+    display: none;
+  }
+  .col-4 {
+    display: none;
+  }
 }
 
 .solid {
